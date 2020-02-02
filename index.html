@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Avrakhova Laura">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ITstep Dnipro, gr. web_2019, dz-js">
+    <title>Avrakhova dz24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            1. Идентификация Борна. Напишите приложение, которое будет проверять правильность введения данных: cерия и номер паспорта, номер телефона, идентификационный код.
+        </div>
+        <div class="myData">
+            <span>Серия и номер паспорта:</span>
+            <input type="text" id="passport" placeholder="AM000000" autofocus>
+            <button id="btnPassport">Проверить</button>
+            <span class="result resultPass"></span>
+        </div>
+
+        <div class="myData">
+            <span>Номер телефона:</span>
+            <input type="text" id="telNumber" placeholder="+380XXXXXXXXX">
+            <button id="btnTelNumber">Проверить</button>
+            <span class="result resultTelNumb"></span>
+        </div>
+
+        <div class="myData">
+            <span>ИНН:</span>
+            <input type="number" id="inn" placeholder="XXXXXXXXXX">
+            <button id="btnINN">Проверить</button>
+            <span class="result resultInn"></span>
+        </div>
+    </section>
+    
+    <section>
+        <div>
+            2. Напишите приложение, которое будет принимать строку произвольной длины и символ, 
+            которые будет заменять все гласные буквы в этой строке. Выведите пользователю смешную 
+            строку дабы порадовать его и его детей.
+        </div>
+        <textarea id="userText" placeholder="Ваш текст"></textarea>
+        <input type="text" id="userSymbol" placeholder="Ваш символ">
+        <button id="btnFunnyText">Заменить</button>
+        <div class="result2"></div>
+    </section>
+
+    <section>
+        <div>
+            3. Входные данные: Строка. <br>
+            Выходные данные: Число - Количество слов длиной 2 и больше букв
+        </div>
+        <textarea id="allText" placeholder="Ваш текст"></textarea>
+        <button id="btnCountWords">Заменить</button>
+        <span class="result resultCountWords"></span>
+    </section>
+
+    <script src="bornApp.js"></script>
+</body>
+</html>

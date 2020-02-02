@@ -1,0 +1,59 @@
+body {
+    margin: 20px auto;
+    width: 60%;
+    background-color: azure;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div {
+    text-align: left;
+    width: 100%;
+}
+
+.myData {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input, button, span {
+    width: 20%;
+    border-radius: 7px;
+    height: 30px;
+    margin: 5px 0 5px 0;
+}
+
+input {text-align: center;}
+button {font-weight: bold;}
+button:hover {cursor: pointer;}
+
+.result {
+    width: 30%;
+    border: 1px solid maroon;
+    background-color: rgb(252, 210, 220);
+    line-height: 30px;
+    text-align: center;
+}
+
+.result2 {
+    width: 90%;
+    border: 1px solid maroon;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(240, 255, 210);
+    margin: 5px 0 5px 0;
+}
+
+textarea {
+    width: 80%;
+    height: 50px;
+    border-radius: 7px;
+    margin: 5px 0 5px 0;
+}
